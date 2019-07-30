@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "first try to build a chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aminetech84/Chat-App.git"
+  },
+  "keywords": [
+    "chat",
+    "app"
+  ],
+  "author": "Amine ouldaouali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aminetech84/Chat-App/issues"
+  },
+  "homepage": "https://github.com/Aminetech84/Chat-App#readme"
+}
