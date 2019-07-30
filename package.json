@@ -1,10 +1,11 @@
 {
   "name": "chat-app",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "first try to build a chat app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Aminetech84/Chat-App/issues"
   },
-  "homepage": "https://github.com/Aminetech84/Chat-App#readme"
+  "homepage": "https://github.com/Aminetech84/Chat-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
 }
