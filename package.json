@@ -1,28 +1,12 @@
 {
-  "name": "chat-app",
+  "name": "socket-chat-example",
   "version": "0.0.1",
-  "description": "first try to build a chat app",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aminetech84/Chat-App.git"
-  },
-  "keywords": [
-    "chat",
-    "app"
-  ],
-  "author": "Amine ouldaouali",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Aminetech84/Chat-App/issues"
-  },
-  "homepage": "https://github.com/Aminetech84/Chat-App#readme",
+  "description": "my first socket.io app",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^1.7.4"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
